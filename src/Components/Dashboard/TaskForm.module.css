@@ -1,0 +1,70 @@
+.form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+    /* clean white card look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* soft, modern shadow */
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    /* light border for definition */
+}
+
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.input,
+.select,
+.textarea {
+    width: 100%;
+    padding: 8px;
+    padding-right: 0px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 5px solid #000000;
+    background-color: #ffff;
+    color: #000000;
+}
+
+.textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+}
+
+.submitBtn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #43a047;
+}
+
+.cancelBtn {
+    background-color: #9e9e9e;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cancelBtn:hover {
+    background-color: #757575;
+}

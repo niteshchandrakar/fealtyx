@@ -1,0 +1,120 @@
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  /* Full viewport height */
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* Typing animation */
+.type-header {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+
+  overflow: hidden;
+
+
+  max-width: 100%;
+  text-align: center;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Login Box */
+.login-box {
+  background-color: #607d8b;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Inputs */
+.login-box input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  background-color: #f1f3f4;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.login-box input:focus {
+  border-color: #3f51b5;
+  outline: none;
+}
+
+/* Button */
+.login-box button {
+  padding: 0.9rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #303f9f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-box {
+    padding: 1.5rem;
+  }
+
+  .type-header {
+    font-size: 1.6rem;
+  }
+
+  .login-box input {
+    font-size: 1rem;
+  }
+
+  .login-box button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-box {
+    padding: 1rem;
+  }
+
+  .type-header {
+    font-size: 1.4rem;
+  }
+
+  .login-box input,
+  .login-box button {
+    font-size: 0.95rem;
+  }
+}

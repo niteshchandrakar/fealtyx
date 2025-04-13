@@ -1,0 +1,29 @@
+.timer {
+    justify-content: space-between;
+    display: flex;
+    max-width: 300px;
+}
+
+
+
+.timer-container button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+.timer-container button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+.timer-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

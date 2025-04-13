@@ -95,7 +95,7 @@ Use the following credentials to log in:
 
 ## 🔗 Live Demo
 
-👉 [Try the App](https://taskfealtyx.vercel.app/)
+👉 [Try the App](https://fealty.netlify.app/)
 
 ---
 
